@@ -70,12 +70,6 @@ export GOOGLE_CLOUD_LOCATION=us-central1
 export GOOGLE_GENAI_USE_VERTEXAI=True
 ```
 
-4. Download the EmoBank dataset:
-```bash
-# Place emobank.csv in the root directory
-# Download from: https://github.com/JULIELab/EmoBank
-```
-
 ### Training the VAD Model
 
 Train the emotion regression model:
