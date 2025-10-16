@@ -1,0 +1,13 @@
+[project]
+name = "emo-agent"
+version = "0.1.0"
+description = "Example of explicit `emotional` agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "catboost>=1.2.8",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.1",
+    "google-adk>=0.1.0",
+]

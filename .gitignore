@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Conversation logs and test output
+conversation_logs/
+*.log
+
+# Model artifacts (large files)
+artifacts_v1/
+*.pkl
+*.cbm
+
+# Data files (may contain sensitive info)
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Cloud credentials
+*-credentials.json
+service-account*.json
+*.gcp.json
+
+# Environment variables
+.env
+.env.local
